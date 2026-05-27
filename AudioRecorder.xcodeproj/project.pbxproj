@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		555C66EC2FC6FB1500AFCD77 /* permission-denied.png in Resources */ = {isa = PBXBuildFile; fileRef = 555C66E72FC6FB1500AFCD77 /* permission-denied.png */; };
+		555C66ED2FC6FB1500AFCD77 /* recording.png in Resources */ = {isa = PBXBuildFile; fileRef = 555C66E92FC6FB1500AFCD77 /* recording.png */; };
+		555C66EE2FC6FB1500AFCD77 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 555C66E32FC6FB1500AFCD77 /* README.md */; };
+		555C66EF2FC6FB1500AFCD77 /* recording-saved.png in Resources */ = {isa = PBXBuildFile; fileRef = 555C66EA2FC6FB1500AFCD77 /* recording-saved.png */; };
+		555C66F02FC6FB1500AFCD77 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 555C66E62FC6FB1500AFCD77 /* home.png */; };
+		555C66F12FC6FB1500AFCD77 /* context-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 555C66E42FC6FB1500AFCD77 /* context-menu.png */; };
+		555C66F22FC6FB1500AFCD77 /* permission-popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 555C66E82FC6FB1500AFCD77 /* permission-popup.png */; };
+		555C66F32FC6FB1500AFCD77 /* empty-state.png in Resources */ = {isa = PBXBuildFile; fileRef = 555C66E52FC6FB1500AFCD77 /* empty-state.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		555C66452FC4ACF500AFCD77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +38,14 @@
 		555C66372FC4ACF300AFCD77 /* AudioRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C66442FC4ACF500AFCD77 /* AudioRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C664E2FC4ACF600AFCD77 /* AudioRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C66E32FC6FB1500AFCD77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		555C66E42FC6FB1500AFCD77 /* context-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "context-menu.png"; sourceTree = "<group>"; };
+		555C66E52FC6FB1500AFCD77 /* empty-state.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty-state.png"; sourceTree = "<group>"; };
+		555C66E62FC6FB1500AFCD77 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		555C66E72FC6FB1500AFCD77 /* permission-denied.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "permission-denied.png"; sourceTree = "<group>"; };
+		555C66E82FC6FB1500AFCD77 /* permission-popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "permission-popup.png"; sourceTree = "<group>"; };
+		555C66E92FC6FB1500AFCD77 /* recording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recording.png; sourceTree = "<group>"; };
+		555C66EA2FC6FB1500AFCD77 /* recording-saved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recording-saved.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +94,8 @@
 		555C662E2FC4ACF300AFCD77 = {
 			isa = PBXGroup;
 			children = (
+				555C66E32FC6FB1500AFCD77 /* README.md */,
+				555C66EB2FC6FB1500AFCD77 /* Screenshots */,
 				555C66392FC4ACF300AFCD77 /* AudioRecorder */,
 				555C66472FC4ACF500AFCD77 /* AudioRecorderTests */,
 				555C66512FC4ACF600AFCD77 /* AudioRecorderUITests */,
@@ -90,6 +111,20 @@
 				555C664E2FC4ACF600AFCD77 /* AudioRecorderUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		555C66EB2FC6FB1500AFCD77 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				555C66E42FC6FB1500AFCD77 /* context-menu.png */,
+				555C66E52FC6FB1500AFCD77 /* empty-state.png */,
+				555C66E62FC6FB1500AFCD77 /* home.png */,
+				555C66E72FC6FB1500AFCD77 /* permission-denied.png */,
+				555C66E82FC6FB1500AFCD77 /* permission-popup.png */,
+				555C66E92FC6FB1500AFCD77 /* recording.png */,
+				555C66EA2FC6FB1500AFCD77 /* recording-saved.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +247,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555C66EC2FC6FB1500AFCD77 /* permission-denied.png in Resources */,
+				555C66ED2FC6FB1500AFCD77 /* recording.png in Resources */,
+				555C66EE2FC6FB1500AFCD77 /* README.md in Resources */,
+				555C66EF2FC6FB1500AFCD77 /* recording-saved.png in Resources */,
+				555C66F02FC6FB1500AFCD77 /* home.png in Resources */,
+				555C66F12FC6FB1500AFCD77 /* context-menu.png in Resources */,
+				555C66F22FC6FB1500AFCD77 /* permission-popup.png in Resources */,
+				555C66F32FC6FB1500AFCD77 /* empty-state.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

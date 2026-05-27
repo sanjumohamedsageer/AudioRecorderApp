@@ -55,10 +55,16 @@ The app follows a modular MVVM architecture:
 ![Context Menu](Screenshots/context-menu.png)
 
 ### Permission Handling
-![Permission Denied](Screenshots/permission-denied.png.PNG)
+![Permission Denied](Screenshots/permission-denied.png)
 
 ### Empty State
 ![Empty State](Screenshots/empty-state.png)
+
+### Permission Popup
+![Permission Popup](Screenshots/permission-popup.png)
+
+### Recording Saved
+![Recording Saved](Screenshots/recording-saved.png)
 
 ## Important Notes
 

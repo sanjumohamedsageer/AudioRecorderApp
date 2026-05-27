@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct AudioRecorderApp: App {
+    
+    init() {
+       AudioSessionManager.shared.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
